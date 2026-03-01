@@ -20,7 +20,7 @@ function Registration() {
     let [name,setName] = useState("")
     let [email,setEmail] = useState("")
     let [password,setPassword] = useState("")
-    let {userdata , getCurrentUser} = useContext(userDataContext)
+    let {getCurrentUser} = useContext(userDataContext)
     let [loading,setLoading] = useState(false)
 
     let navigate = useNavigate()

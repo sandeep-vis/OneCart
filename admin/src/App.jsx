@@ -6,7 +6,7 @@ import Lists from './pages/Lists'
 import Orders from './pages/Orders'
 import Login from './pages/Login'
 import { adminDataContext } from './context/AdminContext'
-  import { ToastContainer, toast } from 'react-toastify';
+  import { ToastContainer } from 'react-toastify';
 
 function App() {
   let {adminData} = useContext(adminDataContext)
